@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "623f5e6b-1922-4dc6-afcb-0d416fe782e3"
+      }
+    },
+    "owner": "mathieufontaine"
   }
 }
