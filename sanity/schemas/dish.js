@@ -4,15 +4,15 @@ export default {
   title: 'Dish',
   fields: [
     {
-      name: 'name',
+      name: 'title',
       type: 'string',
       title: 'Dish name',
       validation: (Rule) => Rule.required(),
     },
     {
-      name: 'short_description',
+      name: 'description',
       type: 'string',
-      title: 'Short Description',
+      title: 'Description',
       validation: (Rule) => Rule.max(200),
     },
     {

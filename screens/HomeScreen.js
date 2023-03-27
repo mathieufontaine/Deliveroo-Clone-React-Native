@@ -55,6 +55,15 @@ export default function HomeScreen() {
                 url
               }
             },
+          dishes[]->{
+            ...,
+            image{
+              asset->{
+                _id,
+                url
+              }
+            }
+          }
           }
         }`
       );
