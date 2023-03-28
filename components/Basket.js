@@ -18,7 +18,10 @@ const Basket = () => {
 
   return (
     <View className="absolute w-full bottom-2 z-50 p-4">
-      <TouchableOpacity className="bg-[#00CCBB] rounded-lg mx-4 flex-row items-center justify-between p-4">
+      <TouchableOpacity
+        onPress={() => navigation.navigate("Basket")}
+        className="bg-[#00CCBB] rounded-lg mx-4 flex-row items-center justify-between p-4"
+      >
         <Text className="text-white text-lg font-extrabold px-4 py-2 bg-[#01A296]">
           {basket.length}
         </Text>
